@@ -1,2 +1,6 @@
-﻿String str = 456.ToString();
-Console.WriteLine(str[1]);
+﻿Console.Write("Введите трехзначное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int number3 = number % 10;
+
+Console.WriteLine(number3);
